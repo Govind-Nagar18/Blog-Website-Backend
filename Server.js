@@ -19,7 +19,7 @@ app.use("/blog", router);
 app.use("/auth", userrouter);   
 
 // Start server
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 'https://blog-website-frontend-psi.vercel.app/';
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
